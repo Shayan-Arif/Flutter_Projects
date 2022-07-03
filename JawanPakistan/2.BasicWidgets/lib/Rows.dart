@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Text("1st row"),
             Text("2nd row"),
