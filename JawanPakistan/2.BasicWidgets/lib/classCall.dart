@@ -28,7 +28,11 @@ class _AppState extends State<App> {
             SizedBox(
               height: 30,
             ),
-            ElevatedButton(onPressed: () {}, child: Text("Login"))
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text("Login"))
           ],
         ),
       ),
