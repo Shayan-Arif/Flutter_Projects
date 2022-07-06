@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class ListviewHome extends StatelessWidget {
   var name = ["SHayan", "Wasif", "Arif"];
 
   @override
